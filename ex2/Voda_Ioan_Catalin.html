@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<script src="ex1.js"></script>
+	<script src="ex2.js"></script>
+		<title>Descriere Voda Ioan Catalin</title>
+		<style>
+		header{
+		height: 40px;
+		background_color:#de2c53;
+		}
+		
+		body{
+		padding: 10px;
+		margin: 0;
+		font-family: Helvetica;
+		}
+		
+		#Inceput{
+		margin-left: 10px;
+		}
+		
+		#NumePrenume{
+		font-weight: 200;
+		}
+		
+		table, td{
+		border:1px solid;
+		border-collapse;
+		padding: 10px;
+		}
+		
+		#Pasiuni{
+		border-style: dashed;
+		width: 70px;
+		}
+		
+		#pozaprofil{
+		border-radius: 30px;
+		padding: 20px;
+		position: absolute;
+		top: 80px;
+		right: 200px;
+		opacity: 0.9;
+		}
+		
+		footer{
+		background-color:#de2c53;
+		}
+		</style>
+	</head>
+	
+	
+	<body id="body" onload="AddNewItem()">
+		<header>
+		
+		
+		<h1 id="Inceput">Pagina personala<button onclick="changeProfile()">Alta viata</button>
+		</h1>
+		</header>	
+		<h1 id="NumePrenume" style="color:#4f66c4">Voda Ioan Catalin</h1>
+		<img id="pozaprofil" src="vodacata.jfif" width="280px" height="350px">
+		<p>voda.io.ioan@student.utcluj.ro</p>
+		<p>To live is the rarest thing in the world. Most people exist, that is all. – Oscar Wilde</p>
+		<table id="tabelEducatie">
+			<tbody><tr>
+				<td id="realizare_r1">Circuite integrate digitale</td>
+				<td id="perioada_r1">anul 2</td>
+				<td id="link_r1">>https://etti.utcluj.ro/files/Acasa/Site/FiseDisciplina/EaRo/19.pdf </td>
+			</tr>
+			<tr>
+			<td id="realizare_r2">Tehnici CAD</td>
+				<td id="perioada_r2">anul 2</td>
+				<td id="link_r2">https://etti.utcluj.ro/files/Acasa/Site/FiseDisciplina/EaRo/28.pdf </td>
+			</tr>
+			<tr>
+				<td id="realizare_r3">Microcontrolere</td>
+				<td id="perioada_r3">anul 3</td>
+				<td id="link_r3">https://etti.utcluj.ro/files/Acasa/Site/FiseDisciplina/EaRo/41.pdf </td>
+			</tr>
+		</tbody>
+		</table>
+		<h2>Hobby-uri</h2>
+		<ul id="Pasiuni">
+			<li>Condus</li>
+			<li>Plimbari in natura</li>
+			<li>Jonglerii cu foc</li>
+		</ul>
+		<h3 id="h3"></h3>
+		<p id="birthdate"></p>
+		<p id="input"></p>
+		<p id="email-box"></p>
+		<button><a href="Agenda_colegi.html">Back</a></button>
+	</body> 
+</html>
